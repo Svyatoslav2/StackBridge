@@ -23,7 +23,5 @@ urlpatterns = [
     path('api/auth/register/', RegisterView.as_view(), name='register'),
     path('api/auth/login/', LoginView.as_view(), name='login'),
     path('api/auth/profile/', ProfileView.as_view(), name='profile'),
-    # Позже подключите сюда остальные приложения:
-    # path('api/', include('access_control.urls')),
-    # path('api/', include('documents.urls')),
+
 ]
